@@ -6,4 +6,10 @@ def main(n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in range(0,n+1):
+        ls.append(i)
+    return ls
+print(main(5))
+print(main(0))
+

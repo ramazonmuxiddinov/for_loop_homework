@@ -6,4 +6,10 @@ def main(n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    piramida=[]
+    for i in range(1,n+1):
+        bosh_joy=" "*(n-i)
+        yulduz="*"*(2*i-1)
+        piramida.append(bosh_joy+yulduz)
+    return piramida
+print(main(3))

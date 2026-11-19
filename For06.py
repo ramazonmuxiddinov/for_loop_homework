@@ -7,4 +7,8 @@ def main(a, b):
     Qaytaradi:
         int: natija
     """
-    return
+    ls=0
+    for i in range(a,b+1):
+        ls+=i
+    return ls
+print(main(1,100))

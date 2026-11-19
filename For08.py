@@ -6,4 +6,8 @@ def main(n):
     Qaytaradi:
         float: yig'indi
     """
-    return
+    ls = 0
+    for i in range(1,n+1):
+        ls+=1/i
+    return round(ls,2)
+print(main(4))

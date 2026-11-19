@@ -6,4 +6,17 @@ def main(n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    
+    f1=0
+    f2=1
+    ls = [f1, f2]
+    for i in range(0,n-2):
+        f3 = f1+f2
+        f1=f2
+        f2=f3
+        ls.append(f3)
+    return ls
+        
+        
+    
+print(main(10))

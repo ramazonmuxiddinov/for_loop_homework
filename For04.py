@@ -7,4 +7,8 @@ def main(a, b):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in range(a,b+1):
+        ls.append(i)
+    return ls
+print(main(2020,2026))

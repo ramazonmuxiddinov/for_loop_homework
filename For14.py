@@ -6,4 +6,8 @@ def main(n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in range(1,11):
+        ls.append(f"{n}x{i}={n*i}")
+    return ls
+print(main(7))

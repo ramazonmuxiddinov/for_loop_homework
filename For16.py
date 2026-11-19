@@ -6,4 +6,5 @@ def main(sozlar):
     Qaytaradi:
         list: natija ro'yxati
     """
+    
     return

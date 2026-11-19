@@ -6,4 +6,8 @@ def main(narx):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in range(1,11):
+        ls.append(narx*i)
+    return ls
+print(main(12000))

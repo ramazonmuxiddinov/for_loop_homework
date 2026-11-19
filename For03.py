@@ -7,4 +7,8 @@ def main(k, n):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in range(n):
+        ls.append(k)
+    return ls
+print(main(26,3))

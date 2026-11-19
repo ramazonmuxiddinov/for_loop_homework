@@ -6,4 +6,8 @@ def main(ismlar):
     Qaytaradi:
         list: natija ro'yxati
     """
-    return
+    ls=[]
+    for i in ismlar:
+        ls.append(i.capitalize())
+    return ls
+print(main(["allamurod", "akmal", "dilshod"]))

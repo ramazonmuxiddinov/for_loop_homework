@@ -8,4 +8,9 @@ def main(oylik, oylar, foiz):
     Qaytaradi:
         float: yakuniy summa
     """
-    return
+    sum=0
+    for i in range(oylar):
+        sum=sum*(100+foiz)/100+oylik
+    return round(sum,2)
+print(main(1000000,3,2))
+

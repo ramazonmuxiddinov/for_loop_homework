@@ -6,4 +6,8 @@ def main(n):
     Qaytaradi:
         str: natija satri
     """
-    return
+    ls=""
+    for i in range(n+1):
+       ls+=str(i)+" "
+    return f""}"
+print(main(3))
